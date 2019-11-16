@@ -21,5 +21,4 @@ fi
 $VIRTUALENV/bin/pip install -r requirements.txt
 
 # Run a glorious Python 3 server
-# $VIRTUALENV/bin/python3 app.py
-gunicorn app:app
+$VIRTUALENV/bin/python3 app.py
